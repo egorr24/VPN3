@@ -1,0 +1,25 @@
+{
+  "name": "fluxvpn-server",
+  "version": "1.0.0",
+  "description": "Personal VPN Server for Railway deployment",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["vpn", "proxy", "railway", "personal"],
+  "author": "FluxVPN",
+  "license": "MIT"
+}
